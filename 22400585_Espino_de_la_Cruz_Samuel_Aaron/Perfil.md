@@ -1,5 +1,5 @@
 <img src ="https://avatars.githubusercontent.com/u/223176104?s=400&u=8e0e8b5155fe1e79bf33091c7e6bf4ac0c74d250&v=4" width="150" alt="Foto de perfil de Yair Nava"/>
-# Hola, soy Juan Angel Rivera Ramirez
+# Hola, soy Samuel Aaron Espino de la Cruz
 
 ## Información general
 - 📚 Carrera: Ingeniería en Sistemas Computacionales
