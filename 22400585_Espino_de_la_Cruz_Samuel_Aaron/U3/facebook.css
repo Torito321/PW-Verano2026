@@ -1,1 +1,138 @@
+/*
+    Configuracion principal y las fuentes
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+/*
+    Contenedor login 
+*/
+
+.Contenedor-Login {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center;
+}
+
+/* 
+    Izquierda
+*/
+.Izquierda {
+    max-width: 500px;
+    margin-bottom: 80px;
+}
+
+.Izquierda h1 {
+    color: #1877f2;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.Izquierda p {
+    font-size: 1.70rem;
+    line-height: 1.35;
+    color: #1c1e21;
+}
+
+/*
+    Derecha con todo el diseño del formulario de login
+*/
+.Derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 396px;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*
+    Textos que estan en los inputs y el diseño de los inputs
+*/
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 50px;
+    padding: 1px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    color: #1c1e21;
+}
+
+/* 
+    Botones de login y crear cuenta
+*/
+.btn-login {
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.Pregunta {
+    color: #1877f2;
+    font-size: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #dadde1;
+    margin: 4px 0;
+}
+
+.btn-CuentaNueva {
+    background-color: #42b72a;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    height: 48px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/*
+    Texto de la parte de abajo del formulario
+*/
+.create-page {
+    margin-top: 28px;
+    font-size: 0.9rem;
+    color: #1c1e21;
+    text-align: center;
+}
 
