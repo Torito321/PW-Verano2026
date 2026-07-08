@@ -1,70 +1,147 @@
+body {
+    background-color: rgb(54, 49, 49);
+}
 
-    body{
-        background-color: rgb(54, 49, 49);
-    }
+h1 {
+    color: rgb(199, 38, 38);
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
 
-    h1{
-      color: rgb(199, 38, 38);
-      margin: 10px;
-      text-align: center; 
-      font-weight: bold;
-    }
+p {
+    color: aliceblue;
+    margin: 15px;
+    text-align: center;
+}
 
-    p{
-        color: aliceblue;
-        margin: 15px;
-        text-align: center;
-    }
+ol,
+ul {
+    color: white;
+}
 
-    ol,ul{
-        color: white;
-    }
-    
 
-    h2{
-        text-align: center;
-        color:rgb(255, 255, 255); 
-        background-color:rgb(94, 19, 19) ;
-        border: 3px solid;
-        border-radius: 10px;
-    }
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 19, 19);
+    border: 3px solid;
+    border-radius: 10px;
+}
 
-    a{
-        color: rgb(255, 230, 0);
-        font-weight: bold;
-        text-decoration: none;
-    }
+a {
+    color: rgb(255, 230, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
 
-    a:hover{
-        text-decoration: underline;
-        color: brown;
-    }
+a:hover {
+    text-decoration: underline;
+    color: brown;
+}
 
-    img{
-        color: rgb(132, 255, 0);
-        margin: auto;
-        display: block;
-        border: 5px solid;
-        border-radius: 10px;
-    }
+img {
+    color: rgb(132, 255, 0);
+    margin: auto;
+    display: block;
+    border: 5px solid;
+    border-radius: 10px;
+}
 
-    
-    table{
-        color: rgba(255, 0, 0, 0.607);
-        background-color: white;
-        border: 3px solid;
-        border-collapse: collapse;
-        text-align: center;
-        margin: auto;
-    }
 
-    th{
-        background:rgb(87, 76, 76);
-        color: rgb(255, 255, 255);
-        padding: 10px;
-        
-    }
+table {
+    color: rgba(255, 0, 0, 0.607);
+    background-color: white;
+    border: 3px solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
 
-    td{
-        border: 2px solid;
-    }
+th {
+    background: rgb(87, 76, 76);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+td {
+    border: 2px solid;
+}
+
+fieldset {
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid rgb(199, 38, 38);
+    border-radius: 10px;
+    background-color: rgb(70, 65, 65);
+    padding: 20px;
+}
+
+legend {
+    color: white;
+    background-color: rgb(199, 38, 38);
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+fieldset table {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+fieldset td {
+    padding: 10px;
+    color: black;
+    border: 1px solid gray;
+}
+
+fieldset label {
+    color: black;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 120px;
+    background-color: rgb(199, 38, 38);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: rgb(139, 20, 20);
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: rgb(199, 38, 38);
+    box-shadow: 0 0 5px rgb(199, 38, 38);
+}
