@@ -1,1 +1,220 @@
+/* 1. Configuración de pantalla y fondo general */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.Contenedor-Login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    width: 100%;
+    max-width: 1100px;
+    flex: 1;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Logo-X {
+    width: 380px; 
+    height: auto;
+}
+
+.Derecha {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; 
+}
+
+.Titulo-Principal {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+    letter-spacing: -1.5px;
+}
+
+.Subtitulo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+
+.Form-Botones {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+}
+
+.Btn-Social, .Btn-CrearCuenta, .Btn-IniciarSesion {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.2s;
+}
+
+.Btn-Social {
+    background-size: 18px 18px;      
+    background-repeat: no-repeat;    
+    background-position: 25px center; 
+    padding-left: 50px; 
+    background-color: #ffffff;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    margin-bottom: 12px;
+}
+
+.Btn-Google {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg');
+}
+
+.Btn-Apple {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg');
+}
+
+.Separador-Linea {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 12px 0;
+}
+
+.Separador-Linea::before, .Separador-Linea::after {
+    content: "";
+    flex: 1;                
+    border-bottom: 1px solid #2f3336;
+}
+
+.Separador-Linea::before {
+    margin-right: 10px;
+}
+
+.Separador-Linea::after {
+    margin-left: 10px;
+}
+
+.Btn-CrearCuenta {
+    background-color: #1d9bf0;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.Btn-CrearCuenta:hover {
+    background-color: #1a8cd8;
+}
+
+.Texto-Terminos {
+    font-size: 11px;
+    color: #71767b;
+    line-height: 1.3;
+    margin: 0 0 45px 0;
+}
+
+.Texto-Terminos a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+.Texto-Terminos a:hover {
+    text-decoration: underline;
+}
+
+.Seccion-Login h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.Btn-IniciarSesion {
+    background-color: transparent;
+    color: #1d9bf0;
+    border: 1px solid #536471;
+}
+
+.Btn-IniciarSesion:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer a {
+    color: #71767b;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    body {
+        justify-content: flex-start;
+        padding: 40px 20px;
+    }
+
+    .Contenedor-Login {
+        flex-direction: column;
+        gap: 40px;
+        max-width: 100%;
+    }
+
+    .Logo-X {
+        width: 150px; 
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Derecha {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .Titulo-Principal {
+        font-size: 36px;
+        margin-bottom: 20px;
+        letter-spacing: -0.5px;
+    }
+
+    .Subtitulo {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .Form-Botones {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    footer {
+        gap: 8px 12px;
+        padding: 30px 10px 10px 10px;
+    }
+
+    footer a {
+        font-size: 12px;
+    }
+}
