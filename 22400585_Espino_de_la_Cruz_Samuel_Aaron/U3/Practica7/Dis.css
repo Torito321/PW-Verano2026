@@ -1,1 +1,428 @@
+/*Pagina 1*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #040714;
+    color: #f9f9f9;
+}
 
+.Pagina-1 {
+    background-image: url('assets/main-hero-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.Parte-superior {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}
+
+.Btn-IniciarSesion {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.Btn-IniciarSesion:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.Logo-Disney {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.Centro {
+    max-width: 650px;
+    width: 100%;
+}
+
+.Titulo-Principal {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+
+.Input-Correo {
+    background-color: #31343e;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 18px;
+    font-size: 16px;
+    width: 60%;
+    border-radius: 4px 0 0 4px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.Btn-Registrate {
+    background-color: #00beea;
+    color: #ffffff;
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    float: left;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    transition: background-color 0.2s ease;
+}
+
+.Btn-Registrate:hover {
+    background-color: #00a3cc;
+}
+
+.Descuentos {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #c0c0c0;
+}
+
+.Descuentos p {
+    margin: 6px 0;
+}
+
+.Descuentos a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.Descuentos a:hover {
+    color: #00beea;
+}
+
+.Parte-inferior {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 650px;
+}
+
+.Parte-inferior img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Pagina 2*/
+
+.Pagina-2 {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+.SoloDisney {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.Pagina-2 > p {
+    font-size: 1.1rem;
+    color: #a3a3a3;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.Disney-Plus-Originals {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    display: block;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-imagen {
+    position: relative;
+    display: inline-block;
+    
+    max-width: 100%;
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+
+    white-space: nowrap;
+
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+}
+
+
+/* Pagina 3 */
+.Pagina-3 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 40px;
+    background-color: #000000;
+    overflow-x: auto;
+    align-items: flex-start;
+}
+
+
+.item-pelicula {
+    position: relative;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.item-pelicula .Img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease;
+}
+
+
+.item-pelicula .titulo {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+/*Pagina 4*/
+
+.Pagina-4 {
+    background-color: #040714;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.Encabezado-Planes {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Encabezado-Planes h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.Encabezado-Planes p {
+    color: #a2a4a7;
+    font-size: 0.95rem;
+}
+
+.Tabla-Planes {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    max-width: 1000px;
+    width: 100%;
+    background-color: #0c111d;
+    border: 1px solid #222634;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Tabla-Planes>div {
+    border-bottom: 1px solid #222634;
+    border-right: 1px solid #222634;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
+.Tabla-Planes>div:nth-child(4n) {
+    border-right: none;
+}
+
+.Caracteristica {
+    justify-content: flex-start !important;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #e1e3e6 !important;
+}
+
+.Col-Plan {
+    font-weight: bold;
+    font-size: 0.8rem !important;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.Plan-Premium {
+    background-color: #0072ff;
+    border-bottom: none !important;
+}
+
+.Precio-Plan {
+    font-weight: bold;
+    font-size: 0.9rem !important;
+}
+
+.Check {
+    color: #24ee81 !important;
+    font-size: 1.2rem;
+}
+
+.Guion {
+    color: #ff4444 !important;
+    font-size: 1.2rem;
+}
+
+.Texto-Celda {
+    color: #a2a4a7 !important;
+}
+
+.Celda-Vacia {
+    border-bottom: 1px solid #222634;
+}
+
+/*Pagina 5*/
+.Pagina-5 {
+    background-color: #040714;
+    color: #f9f9f9;
+    padding: 60px 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pagina-5 h1 {
+    grid-column: span 12;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.Pagina-5 p {
+    grid-column: span 12;
+    color: #cacaca;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Pagina-5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Pagina-5 img:nth-of-type(1),
+.Pagina-5 img:nth-of-type(2),
+.Pagina-5 img:nth-of-type(3),
+.Pagina-5 img:nth-of-type(4) {
+    grid-column: span 3;
+}
+
+.Pagina-5 img:nth-of-type(5) {
+    grid-column: 4 / span 3;
+}
+
+.Pagina-5 img:nth-of-type(6) {
+    grid-column: 7 / span 3;
+}
+
+/*Pagina 6*/
+
+.Pagina-6 {
+    background-color: #040714;
+    color: #f9f9f9;
+    padding: 60px 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Pagina-6 h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Pagina-6 p {
+    color: #cacaca;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+.Pagina-6 img {
+    max-width: 100%;
+    height: auto;
+    width: 650px;
+}
+
+/*Pagina 7*/
+
+.pagina-7 {
+    background-color: #040714;
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 1px solid #31343e;
+}
+
+.pagina-7 p {
+    color: #a09c9c;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+}
