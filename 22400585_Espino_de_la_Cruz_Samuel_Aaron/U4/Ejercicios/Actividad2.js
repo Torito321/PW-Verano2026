@@ -99,19 +99,47 @@ function Ejercicio4() {
 
 }
 
-Ejercicio4();
+//Ejercicio4();
 
 
 
 /*
 5. Una tienda departamental paga a sus empleados el 10% de comisión a quienes
 vendan menos de $10,000.00 en artículos, mientras que otorga un 15% a quienes vendan $10,000.00 o más.
-*/
-
-
-
-/*
 Diseña un programa que solicite un número entre $5,000.00 y $30,000.00 
 (validando la entrada hasta que sea un número válido) correspondiente a las \
 ventas de un empleado, y muestre en pantalla cuánto dinero va a recibir por comisión.
 */
+
+function Ejercicio5() {
+    console.log("Ejercicio 5");
+
+    let ventas;
+
+    do {
+        ventas = parseFloat(prompt("Ingrese las ventas del empleado ($5,000 - $30,000):"));
+
+        if (isNaN(ventas) || ventas < 5000 || ventas > 30000) {
+            alert("Dato inválido. Ingrese un número entre 5000 y 30000.");
+        }
+
+    } while (isNaN(ventas) || ventas < 5000 || ventas > 30000);
+
+    let comision;
+
+    if (ventas < 10000) {
+        comision = ventas * 0.10;
+    } else {
+        comision = ventas * 0.15;
+    }
+
+    console.log("Ventas: $" + ventas.toFixed(2));
+    console.log("Comisión: $" + comision.toFixed(2));
+
+    alert(
+        "Ventas: $" + ventas.toFixed(2) +
+        "\nComisión: $" + comision.toFixed(2)
+    );
+}
+
+Ejercicio5();
