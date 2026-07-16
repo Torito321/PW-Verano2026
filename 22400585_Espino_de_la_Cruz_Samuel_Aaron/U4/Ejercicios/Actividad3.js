@@ -231,4 +231,4 @@ function Ventas() {
     console.log("Vendedor con más ventas: " + mejorVendedor + " ($" + mayorVenta + ")");
 }
 
-Ventas();
+//Ventas();
