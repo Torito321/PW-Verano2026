@@ -20,7 +20,7 @@ function Ejercicio1() {
     }
 }
 
-//Ejercicio1();
+Ejercicio1();
 
 /*
 2. Escribe un programa que genere de forma continua números entre el 0 y el 5, 
@@ -53,17 +53,11 @@ function Ejercicio3() {
     console.log("Ejercicio: 3");
 
     let nu1 = Math.floor(Math.random() * 9) + 2;
-    let nu2 = Math.floor(Math.random() * 9) + 2;
+    
     console.log("La tabla del:  " + nu1);
 
     for (let i = 1; i <= 10; i++) {
         console.log(`${nu1} x ${i} = ${nu1 * i}`);
-    }
-
-    console.log("La tabla del:  " + nu2);
-
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${nu2} x ${i} = ${nu2 * i}`);
     }
 
 }
@@ -81,6 +75,7 @@ function Ejercicio4() {
     let par = 0;
     let impar = 0;
     let = numero = 0;
+    
     for (let i = 1; i <= 10; i++) {
         numero = parseInt(prompt("Ingresa el número " + i + " (1-100):"));
         if (numero >= 1 && numero <= 100) {
@@ -142,4 +137,4 @@ function Ejercicio5() {
     );
 }
 
-Ejercicio5();
+//Ejercicio5();
